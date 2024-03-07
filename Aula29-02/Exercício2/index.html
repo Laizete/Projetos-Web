@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Página video</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<style>
+
+		.botao {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #ebebbc; /* Cor de fundo do botão */
+			color: black; /* Cor do texto do botão */
+			text-decoration: none; /* Remover sublinhado do link */
+			border: none;
+			border-radius: 5px; /* Arredondar as bordas */
+			cursor: pointer;
+		}
+		
+		.botao:hover {
+			background-color: #d1d199; /* Altera a cor de fundo ao passar o mouse */
+		}
+		
+
+		table {
+			border-collapse: collapse; /* Mescla as bordas das células da tabela */
+		}
+		th, td {
+			border: 1px solid black; /* Adiciona uma borda de 1px sólida preta em torno das células */
+			padding: 8px; /* Adiciona espaço interno de 8 pixels dentro das células */
+		}
+	  
+		.image {
+            margin-right: 10px;
+            width: 200px;
+        }
+		
+		.justificado {
+            text-align: justify;
+        }
+		
+</style>
+</head>
+<body>
+
+	<a href="../index.html" class="botao">Página Inicial</a>
+
+	<h1 align= "center">Lista de imagens favoritas</h1>
+	<h2>Tabela 1 – imagens</h2>
+	
+<table>
+	<tr>
+		<th colspan="1">Conteúdo</th>
+		<th colspan="1">Descrição mídia</th>
+		<th colspan="1">Endereço</th>	
+	 </tr>
+	  
+	 <tr>
+		<td><img src="img/Dog.jpg" alt="Pet" class="image"></td>
+		<td class=justificado>O Golden Retriever é uma raça de cães amigável e leal,</br> conhecida
+			por sua pelagem dourada, olhos expressivos</br> e personalidade afetuosa.
+			Eles são inteligentes, enérgicos</br> e ótimos companheiros familiares.</td>
+		<td><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthirstymag.com%2FCOELHO-FOFINHOS-GATOS-FILHOTES-1396903.html&psig=AOvVaw2HMRb7yvF0DrYwIffdEve1&ust=1709643226954000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjRp9HT2oQDFQAAAAAdAAAAABAE">Link</a></td>
+	</tr>
+  
+    <tr>
+		<td><iframe width="200" height="200" src="https://www.youtube.com/embed/59GM_xjPhco?si=WQiJlM6FyWNm7zY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+		<td class=justificado>"Pintinho Amarelinho" é uma música infantil popular,<br> conhecida por suas 
+			letras simples e melodia cativante.<br> Ela conta a história de um pintinho amarelo
+			que sai do<br> ovo e explora o mundo ao seu redor, acompanhado de<br> outros animais da fazenda.</td>
+		<td><a href="https://youtu.be/59GM_xjPhco?si=TYuCLUyJR5bWZAgy">Link</a></td>
+	</tr>
+	  
+	<tr>
+		<td><audio controls src="Audio/musica.M4A"></audio></td>
+		<td class=justificado>A música tocada por violoncelo é expressiva, emotiva e<br> encantadora,transmitindo uma variedade de sentimentos<br>
+			através de suas notas ressonantes.</td>
+		<td><a href="https://www.youtube.com/watch?v=8lWXXHiQf6M">Link</a></td>
+	</tr>
+</table>
+
+</body>
+</html>

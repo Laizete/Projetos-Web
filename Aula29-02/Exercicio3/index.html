@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Tabela</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<style>
+	
+		.botao {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #ebebbc; /* Cor de fundo do botão */
+			color: black; /* Cor do texto do botão */
+			text-decoration: none; /* Remover sublinhado do link */
+			border: none;
+			border-radius: 5px; /* Arredondar as bordas */
+			cursor: pointer;
+		}
+		
+		.botao:hover {
+			background-color: #d1d199; /* Altera a cor de fundo ao passar o mouse */
+		}
+		
+		table {
+			border-collapse: collapse;
+			font-size: 25px;
+		  }
+		  th, td, tr {
+			border: 1px solid black;
+			padding: 8px;
+			text-align: center;
+		  }
+	</style>
+</head>
+<body>
+
+	<a href="../index.html" class="botao">Página Inicial</a>
+
+	<table border=1 align="center">
+		<thead>
+			<tr>
+				<th rowspan="2" colspan="2">Brasil</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Estado</td>
+				<td>Time</td>
+			</tr>
+			<tr>
+				<td rowspan="5">São Paulo</td>
+			</tr>
+			<tr><td>São Paulo</td></tr>
+			<tr><td>Santos</td></tr>
+			<tr><td>Corinthians</td></tr>
+			<tr><td>Palmeiras</td></tr>
+			
+			<tr>
+				<td rowspan="5">Rio de Janeiro</td>
+			</tr>
+			<tr><td>Flamengo</td></tr>
+			<tr><td>Botafogo</td></tr>
+			<tr><td>Vasco</td></tr>
+			<tr><td>Fluminense</td></tr>
+
+
+
+		</tbody>
+	</table>
+</body>
+</html>
